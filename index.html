@@ -7,8 +7,9 @@
 <meta name="description" content="" />
 <meta name="author" content="Maxim Sokhatsky" />
 <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet" />
-<title>ТЕХ</title>
-<link rel="stylesheet" href="https://n2o.dev/blank.css?x=12"/>
+<title>TECH</title>
+<link rel="stylesheet" href="https://n2o.dev/blank.css?v=2"/>
+<link rel="stylesheet" href="https://n2o.dev/zima.css?x=12"/>
 <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
@@ -17,10 +18,10 @@
 </head>
 <body>
 <nav>
-  <a href="../index.html">EN</a>
-  <a href="../jp/index.html">JP</a>
-  <a href="../cn/index.html">CN</a>
-  <a href="#" style="background:#ededed;">UA</a>
+  <a href="https://n2o.tech/" style="background:#ededed;">EN</a>
+  <a href="https://n2o.tech/jp/index.html">JP</a>
+  <a href="https://n2o.tech/cn/index.html">CN</a>
+  <a href="https://n2o.tech/ua/index.html">UA</a>
 </nav>
 <header>
   <a href="https://github.com/synrc/n2o.tech"><img src="https://synrc.space/images/Synrc Neo.svg?v=1" /></a>
@@ -31,11 +32,12 @@
     <section>
       <h3>SYNOPSIS</h3>
       <div>
-        N2O ТЕХ визначає специфікацію на ПЗ усіх рівнів прикладної моделі для підприємств
-        на функціональних мовах програмування. Ця специфікація визначає правила побудови WebSocket
-        сервера, бінарного серіалізатора та веб-фреймворку визначеному формальними протоколами.
-        Промислові версії також підтримують систему управління бізнес-процесами та ефективне
-        сховище з глобальним простором ключів.
+        N2O TECH defines the full-stack specification along
+        with reference implementations in functional programming
+        languages. It provides WebSocket connectivity
+        with minimalistic enterprise protocol stack: web framework,
+        business process management, scalable data storage.
+
         <br/><br/>
 
       </div>
@@ -48,21 +50,19 @@
 <main>
 <article>
   <section>
-
-    <h3>ЩО Є N2O НАСПРАВДІ?</h3>
-
-     <p>N2O TEX &mdash; це формальна філософія та інженерна вправа водночас.
-        Вона обмежує автора бути ефективним та точним не втрачаючи при цьому повноти та функціональності.
-        Це накшталт внутрішньої дисципліні при проектуванні програмного забезпечення.
-        Ця філософія більше 8 років застосовується на практиці для побудови систем SYNRC,
-        та визначає стандартний мінімальний набір для демонстрації однієї
-        з сучасних моделей реактивного веб-програмування, яка включає: веб-сокет веб-фреймвок
-        з бінарною серілізацією, пушами та контролем DOM елементів зі сторони сервера.
-        N2O вчить будувати прості та надійні системи на будь-якій мові програмування.</p>
-     <p>N2O додатки:</P>
+    <h3>WHAT N2O REALLY IS?</h3>
+     <p>N2O is a formal philosophy and software engineering exercise.
+        It stricts you to be minimal and concise while remains functional and complete.
+        It's a kind of purity discipline in software development.
+        The application of the N2O method is modern web development:
+        JavaScript, server-side DOM updates, binary protocols.
+        N2O teaches how to write minimal and robust software.</p>
+  </section>
+  <section>
+     <p>N2O applications:</P>
      <figure><img src="https://camo.githubusercontent.com/8f1b465dfc7986da9444456e3e9e9eee94731e5692a3d06cb1670a107af1f21c/68747470733a2f2f6e326f2e6465762f4445562e706e673f763d31"></figure>
 
-     <p><a href="https://github.com/groupoid/anders/tree/master/experiments">Формальна специфікація</a> для основних бібліотек N2O, KVS та BPE на мові Anders:</p>
+     <p>Formal spec for core libraries N2O, KVS and BPE in Anders language:</p>
      <figure><code>
   module N2O-KVS-BPE where
   import BASE
@@ -100,14 +100,14 @@
   axiom modify : Π (k: U), ProcId -> k -> Atom -> IO ProcRes
   axiom event : ProcId -> String -> IO ProcRes
   axiom head : ProcId -> IO Hist
-  axiom hist : ProcId -> IO (List Hist)</code></figure></section>
+  axiom hist : ProcId -> IO (List Hist)
+     </code></figure>
 
-
-     <p>Авторські імплементації N2O TEX для функціональних мов програмування:</P>
+     <p>N2O blueprint implementations:</P>
      <center>
       <table align=center style="margin:0" cellpadding=0 cellspacing=0>
         <tr>
-            <td><a href="https://n2o.dev/ua/"><img src="https://avatars.githubusercontent.com/u/661709?s=200&v=4"></a></td>
+            <td><a href="https://n2o.dev/"><img src="https://avatars.githubusercontent.com/u/661709?s=200&v=4"></a></td>
             <td><a href="https://o1.github.io/sml.uno/"><img src="https://avatars.githubusercontent.com/u/45427884?s=200&v=4"></a></td>
             <td><a href="https://github.com/o53/"><img src="https://avatars.githubusercontent.com/u/45442911?s=200&v=4"></a></td>
             <td><a href="https://github.com/o83/"><img src="https://avatars.githubusercontent.com/u/46197464?s=200&v=4"></a></td>
@@ -126,67 +126,23 @@
         </tr>
        </table>
      </center>
-
-     <p>Мови програмування розділені на чотири рівня як для клієнтської (мобільної та веб розробки) так і для
-        серверної розробки (бекенд системи). Нульовий рівень &mdash; тотальні формальні алгебраїчні
-        мови програмування, що забезбечують повноту, функціональність та доведення властивостей прогрм згідно сучасних
-        уявлень про математичне моделювання та системи залежних типів побудованих на розшаруваннях.
-        Перший рівень &mdash; формальні функціональні мови програмування, як правило System F, System F&omega;
-        які успішно використовуються в промисловості та забезпечують достатньо формальний запис
-        який піддається масштабуванню у великих командах завдяки потужному ядру компіляторів.
-        Другий рівень &mdash; неформальні (без формальної операційної чи денотаційної семантики) чи
-        формальних верифікаторів, які проте успішно використовуються в промисловості, можуть бути як
-        з розвиненими системами типів з узагальненими шаблонами та типами сумами, так і
-        однотипними мовами програмування з динамічною типізацією. Третій рівень &mdash; мови які
-        погано піддаються масштабуванню у промисловому виробництві (на основі спостережень за власним досвідом).
-     </p>
-
-        <ul>
-           <li>Client Tier 3：（JavaScript、Lua）</li>
-           <li>Client Tier 2：（Swift、Kotlin、TypeScript）</li>
-           <li>Client Tier 1：（UrWeb、OCaml、PureScript）</li>
-           <li>Client Tier 0：（Formality）</li>
-        </ul>
-        <ul>
-           <li>Server Tier 3：（PHP、Python、Perl、Ruby）</li>
-           <li>Server Tier 2：（Erlang、Elixir）</li>
-           <li>Server Tier 1：（Standard ML、Haskell、F#、Rust）</li>
-           <li>Server Tier 0：（Coq、Agda、Lean）</li>
-        </ul>
-
-      <p>Філософія N2O визначає структуру операційних середовищ (runtimes) як операційну систему
-         лямбда-інтерпретаторів які працюють на паралельному обчислювальному
-         середовищі (ядрах процесорів). Кожне з ядер процесорів виконує в нескінченному циклі
-         команди лямбда-інтерпретаторів, переключаючи через певний проміжок часу на
-         потік команд іншого інтерпретатора. Таке визначення дає змогу вбудувати
-         цю структуру у віртуальну машину Erlang.</p>
-
-      <p></p>
-
-        <ul>
-           <li>Головний процес додатку</li>
-           <li>Супервізор додатку</li>
-           <li>Проміжні супервізори</li>
-           <li>Кінцеві пул процесорів повідомлень</li>
-        </ul>
-
-          </section>
+  </section>
   <section>
     <p>Client Tier 3 —（JavaScript、Lua）：</p>
   </section>
   <section>
     <a name="o99"></a>
     <h3>N2O.JS CLIENT</h3>
-    <p>ECMAScript клієнтська інфраструктура для усіх рівнів N2O специфікації.</p>
+    <p>ECMAScript client infrastructure for N2O full-stack specification.</p>
     <ul>
-      <li><a href="https://n2o.dev/deps/n2o/man/ua/utf8.js.htm">UTF-8.JS</a> — UTF-8 серіалізація</li>
-      <li><a href="https://n2o.dev/deps/n2o/man/ua/ieee754.js.htm">IEEE-754.JS</a> — Бінарний формат представлення дійсних чисел</li>
-      <li><a href="https://n2o.dev/deps/n2o/man/ua/zlib.js.htm">ZLIB.JS</a> — ZLIB декомпресія термів</li>
-      <li><a href="https://n2o.dev/deps/n2o/man/ua/bert.js.htm">ETF.JS</a> — Erlang Term Format серіалізатор</li>
-      <li><a href="https://n2o.dev/deps/n2o/man/ua/n2o.js.htm">N2O.JS</a> — N2O/WebSocket JavaScript протокольний цикл</li>
-      <li><a href="https://n2o.dev/deps/n2o/man/ua/mq.js.htm">MQ.JS</a> — N2O/MQTT JavaScript протокольний цикл</li>
-      <li><a href="https://n2o.dev/deps/n2o/man/ua/nitro.js.htm">NITRO.JS</a> — NITRO/JavaScript біндінги для DOM джерел</li>
-      <li><a href="https://github.com/synrc/nitro/blob/master/priv/js/validation.js">VALIDATION.JS</a> — NITRO/JavaScript валідація DOM джерел</li>
+      <li><a href="https://ws.n2o.dev/man/utf8.js.htm">UTF-8.JS</a> — UTF-8 serialization</li>
+      <li><a href="https://ws.n2o.dev/man/zlib.js.htm">zlib.js</a> — ZLIB inflate algorithm</li>
+      <li><a href="https://ws.n2o.dev/man/ieee754.js.htm">IEEE-754.JS</a> — Real Number Format serialization</li>
+      <li><a href="https://ws.n2o.dev/man/bert.js.htm">BERT.JS</a> — Binary Erlang Term Format serialization</li>
+      <li><a href="https://ws.n2o.dev/man/n2o.js.htm">N2O.JS</a> — N2O/WebSocket JavaScript Client Loop</li>
+      <li><a href="https://ws.n2o.dev/man/mq.js.htm">MQ.JS</a> — N2O/MQTT JavaScript Client Loop</li>
+      <li><a href="https://nitro.n2o.dev/man/nitro.js.htm">NITRO.JS</a> — NITRO/JavaScript bindings of DOM sources</li>
+      <li><a href="https://github.com/synrc/nitro/blob/master/priv/js/validation.js">VALIDATION.JS</a> — NITRO/JavaScript DOM sources validation</li>
     </ul>
   </section>
   <section>
@@ -195,19 +151,19 @@
   <section>
     <a name="synrc"></a>
     <h3><a href="https://github.com/synrc">O7 ERLANG ELIXIR HAMLER</a></h3>
-    <p>Стабільні та випробувані часом та 10 роками промслової експлуатації.</p>
+    <p>These repos are stable and mature.</p>
     <ul>
-      <li><a href="https://n2o.dev/deps/n2o/man/ua/index.html">synrc/n2o</a> — N2O 7.12.0 Distributed WebSocket Server</li>
-      <li><a href="https://n2o.dev/deps/kvs/man/ua/index.html">synrc/kvs</a> — KVS 7.11.5 Key Value Store</li>
-      <li><a href="https://n2o.dev/deps/mad/man/ua/index.html">synrc/mad</a> — MAD 7.1.1 Erlang Package Manager</li>
-      <li><a href="https://n2o.dev/deps/bpe/man/ua/index.html">synrc/bpe</a> — BPE 5.12.0 Business Process Engine</li>
-      <li><a href="https://n2o.dev/deps/nitro/man/ua/index.html">synrc/nitro</a> — NITRO 5.12.4 Nitrogen Web Framework</li>
-      <li><a href="https://n2o.dev/deps/rest/man/ua/index.html">synrc/rest</a> — REST 5.10</li>
-      <li><a href="https://n2o.dev/deps/active/man/ua/index.html">synrc/active</a> — ACTIVE 4.11</li>
-      <li><a href="https://n2o.dev/deps/fs/man/ua/index.html">synrc/fs</a> — FS 4.10</li>
-      <li><a href="https://n2o.dev/deps/exe/man/ua/index.html">synrc/exe</a> — EXE 2.11</li>
-      <li><a href="https://n2o.dev/deps/rpc/man/ua/index.html">synrc/rpc</a> — RPC 1.11.1 Swift protobuf ASN.1 JavaScript</li>
-      <li><a href="https://sample.n2o.dev">synrc/review</a> — REVIEW 1.11 MQTT Chat with File Upload</li>
+      <li><a href="https://ws.n2o.dev">synrc/n2o</a> — N2O 7.12.0 Distributed WebSocket Server</li>
+      <li><a href="https://kvs.n2o.dev">synrc/kvs</a> — KVS 7.11.5 Key Value Store</li>
+      <li><a href="https://mad.n2o.dev">synrc/mad</a> — MAD 7.1.1 Erlang Package Manager</li>
+      <li><a href="https://bpe.n2o.dev">synrc/bpe</a> — BPE 5.12.0 Business Process Engine</li>
+      <li><a href="https://nitro.n2o.dev">synrc/nitro</a> — NITRO 5.12.4 Nitrogen Web Framework</li>
+      <li><a href="https://rest.n2o.dev">synrc/rest</a> — REST 5.10</li>
+      <li><a href="https://active.n2o.dev">synrc/active</a> — ACTIVE 4.11</li>
+      <li><a href="https://fs.n2o.dev">synrc/fs</a> — FS 4.10</li>
+      <li><a href="https://exe.n2o.dev">synrc/exe</a> — EXE 2.11</li>
+      <li><a href="https://rpc.n2o.dev">synrc/bert</a> — RPC 1.11.1 Swift protobuf ASN.1 JavaScript</li>
+      <li><a href="https://review.n2o.dev">synrc/review</a> — REVIEW 1.11 MQTT Chat with File Upload</li>
       <li><a href="https://sample.n2o.dev">synrc/sample</a> — SAMPLE 1.11 WebSocket Chat with File Upload</li></ul>
     <br/>
   </section>
@@ -277,6 +233,20 @@
       If you did everything right, N2O should not
       be more than 500 LOC in any language.<br /><br />
     </p>
+      <P>LEGEND:</p>
+
+        <ul>
+           <li>Client Tier 3：（JavaScript、Lua）</li>
+           <li>Client Tier 2：（Swift、Kotlin、TypeScript）</li>
+           <li>Client Tier 1：（UrWeb、OCaml）</li>
+           <li>Client Tier 0：（Formality）</li>
+        </ul>
+        <ul>
+           <li>Server Tier 3：（PHP、Python、Perl、Ruby）</li>
+           <li>Server Tier 2：（Erlang、Elixir）</li>
+           <li>Server Tier 1：（Standard ML、Haskell、F#、Rust）</li>
+           <li>Server Tier 0：（Coq、Agda、Lean）</li>
+        </ul>
     <br/>
     <br/>
   </section>
