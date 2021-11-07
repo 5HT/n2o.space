@@ -6,352 +6,282 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="Maxim Sokhatsky" />
-<title>DEV</title>
-<link rel="stylesheet" href="https://n2o.dev/blank.css"/>
-<link rel="stylesheet" href="https://n2o.dev/zima.css"/>
-<link rel="shortcut icon" type="image/x-icon" href="https://n2o.dev/img/favicon.ico"/>
-<link rel="apple-touch-icon" sizes="180x180" href="https://n2o.dev/img/apple-touch-icon.png"/>
-<link rel="icon" type="image/png" sizes="32x32" href="https://n2o.dev/img/favicon-32x32.png"/>
-<link rel="icon" type="image/png" sizes="16x16" href="https://n2o.dev/img/favicon-16x16.png"/>
-<link rel="manifest" href="https://n2o.dev/img/site.webmanifest"/>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet" />
+<title>ТЕХ</title>
+<link rel="stylesheet" href="https://n2o.dev/blank.css?x=12"/>
+<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
+<link rel="manifest" href="/img/site.webmanifest" />
 </head>
 <body>
 <nav>
-  <a href="https://synrc.space">SYNRC</a>
-  <a href="https://erp.uno">ERP</a>
-  <a href="https://n2o.dev" style="background:#ededed;">DEV</a>
-  <div class="dropdown">
-    <a onclick="drop()" class="dropbtn">EN</a>
-    <div id="dropdown" class="dropdown-content">
-      <a href="https://n2o.dev/il/">IL</a>
-      <a href="https://n2o.dev/ua/">UA</a>
-      <a href="https://n2o.dev/de/">DE</a>
-      <a href="https://n2o.dev/">EN</a>
-    </div>
-  </div>
+  <a href="../index.html">EN</a>
+  <a href="../jp/index.html">JP</a>
+  <a href="../cn/index.html">CN</a>
+  <a href="#" style="background:#ededed;">UA</a>
 </nav>
 <header>
-  <!--a href="https://github.com/synrc"><img src="https://openmoji.org/data/color/svg/262F.svg" /></a-->
-  <a href="https://github.com/synrc"><img src="https://openmoji.org/data/black/svg/2638.svg" /></a>
-  <h1>DEV</h1>
+  <a href="https://github.com/synrc/n2o.tech"><img src="https://synrc.space/images/Synrc Neo.svg?v=1" /></a>
+  <h1>N2O</h1>
 </header>
 <aside>
   <article>
     <section>
-       <h3>User Manuals</h3>
-      <div>N2O.DEV is an open-source foundation for <a href="https://erp.uno">ERP.UNO</a>.
-           Here you can find HTML/ROFF documentation and user manuals that cover family of N2O libraries.
-           There are also: open source TeX/PDF books, release announcements and articles.
-           All libraries are being built using <a href="https://github.com/synrc">Github Actions</a> (mix) and <a href="https://travis-ci.com/synrc">Travis CI</a> (rebar3, mad),
-           Erlang builds are checked against dialyzer. We do support last four major OTP
-           versions: 20, 21, 22, 23 on Windows, Linux and Mac.<br/><br/>
+      <h3>SYNOPSIS</h3>
+      <div>
+        N2O ТЕХ визначає специфікацію на ПЗ усіх рівнів прикладної моделі для підприємств
+        на функціональних мовах програмування. Ця специфікація визначає правила побудови WebSocket
+        сервера, бінарного серіалізатора та веб-фреймворку визначеному формальними протоколами.
+        Промислові версії також підтримують систему управління бізнес-процесами та ефективне
+        сховище з глобальним простором ключів.
+        <br/><br/>
+
       </div>
-    </section>
-  </article>
-  <article>
-    <section>
-      <h3><a href="https://bpe.n2o.dev">BPE</a></h3>
       <div>
-        <ul>
-          <li><a href="https://bpe.n2o.dev/man/bpe.htm">BPE</a></li>
-          <li><a href="https://bpe.n2o.dev/man/task.htm">TASK</a></li>
-          <li><a href="https://bpe.n2o.dev/man/event.htm">EVENT</a></li>
-          <li><a href="https://bpe.n2o.dev/man/gate.htm">GATE</a></li>
-        </ul>
+        2013—2021 © <a href="https://5ht.co/license.htm">ISC LICENSE</a>
       </div>
-    </section>
-    <section>
-      <h3><a href="https://kvs.n2o.dev">KVS</a></h3>
-      <div>
-        <ul>
-          <li><a href="https://kvs.n2o.dev/man/kvs.htm">KVS</a></li>
-          <li><a href="https://kvs.n2o.dev/man/kvs_stream.htm">STREAM</a></li>
-          <li><a href="https://kvs.n2o.dev/man/kvs_mnesia.htm">MNESIA</a></li>
-          <li><a href="https://kvs.n2o.dev/man/kvs_fs.htm">FS</a></li>
-          <li><a href="https://kvs.n2o.dev/man/kvs_rocks.htm">ROCKSDB</a></li>
-          <li><a href="https://kvs.n2o.dev/man/kvs_st.htm">ST</a></li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <h3><a href="https://form.n2o.dev">FORM</a></h3>
-      <div>
-        <ul>
-          <li><a href="https://form.n2o.dev/man/form.htm">FORM</a></li>
-          <li><a href="https://form.n2o.dev/man/valid.js.htm">VALIDATION</a></li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <h3><a href="https://rpc.n2o.dev">RPC</a></h3>
-      <div>
-        <ul>
-          <li><a href="https://rpc.n2o.dev/man/bert_google.htm">GRPC</a></li>
-          <li><a href="https://rpc.n2o.dev/man/bert_validator.htm">ERLANG</a></li>
-          <li><a href="https://github.com/voxoz/soa">SOAP</a></li>
-          <li><a href="https://rpc.n2o.dev/man/bert_swift.htm">SWIFT</a></li>
-          <li><a href="https://rpc.n2o.dev/man/bert_javascript.htm">JS</a></li>
-        </ul>
-      </div>
-    </section>
-  </article>
-  <article>
-    <section>
-      <h3><a href="https://rest.n2o.dev">REST</a></h3>
-      <div>
-        <ul>
-          <li><a href="https://rest.n2o.dev/man/rest.htm">REST</a></li>
-          <li><a href="https://rest.n2o.dev/man/rest_cowboy.htm">COWBOY</a></li>
-          <li><a href="https://rest.n2o.dev/man/rest_kvs.htm">KVS</a></li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <h3><a href="https://ws.n2o.dev">N2O</a></h3>
-      <div>
-        <ul>
-          <li><a href="https://ws.n2o.dev/man/n2o.htm">N2O</a></li>
-          <li><a href="https://ws.n2o.dev/man/n2o_ftp.htm">FTP</a></li>
-          <li><a href="https://ws.n2o.dev/man/n2o_pi.htm">PI</a></li>
-          <li><a href="https://ws.n2o.dev/man/n2o_proto.htm">PROTO</a></li>
-          <li><a href="https://ws.n2o.dev/man/n2o_session.htm">SESSION</a></li>
-          <li><a href="https://ws.n2o.dev/man/n2o_syn.htm">SYN</a></li>
-          <li><a href="https://ws.n2o.dev/man/n2o_ws.htm">WS</a></li>
-          <li><a href="https://ws.n2o.dev/man/n2o_mqtt.htm">MQTT</a></li>
-          <li><a href="https://github.com/5HT/tcp">TCP</a></li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <h3>JS</h3>
-      <div>
-        <ul>
-          <li><a href="https://ws.n2o.dev/man/n2o.js.htm">N2O.JS</a></li>
-          <li><a href="https://ws.n2o.dev/man/ftp.js.htm">FTP.JS</a></li>
-          <li><a href="https://ws.n2o.dev/man/mq.js.htm">MQ</a></li>
-          <li><a href="https://ws.n2o.dev/man/bert.js.htm">BERT</a></li>
-          <li><a href="https://ws.n2o.dev/man/heart.js.htm">HEART</a></li>
-          <li><a href="https://ws.n2o.dev/man/utf8.js.htm">UTF-8</a></li>
-          <li><a href="https://ws.n2o.dev/man/ieee754.js.htm">IEEE-754</a></li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <h3><a href="https://nitro.n2o.dev">NITRO</a></h3>
-      <div>
-        <ul>
-          <li><a href="https://nitro.n2o.dev/man/nitro.htm">NITRO</a></li>
-          <li><a href="https://nitro.n2o.dev/man/nitro.js.htm">NITRO.JS</a></li>
-          <li><a href="https://nitro.n2o.dev/man/nitro_n2o.htm">N2O</a></li>
-          <li><a href="https://nitro.n2o.dev/man/nx_input.htm">INPUT</a></li>
-          <li><a href="https://nitro.n2o.dev/man/nx_textbox.htm">TEXTBOX</a></li>
-          <li>BIND</li>
-          <li>EVENT</li>
-          <li>RENDER</li>
-          <li>TAGS</li>
-        </ul>
-      </div> 
-    </section>
-  </article>
-  <article>
-    <section>
-      <h3><a href="https://fs.n2o.dev">FS</a></h3>
-      <div>
-        <ul>
-          <li><a href="https://fs.n2o.dev/man/fs.htm">FS</a></li>
-          <li><a href="https://fs.n2o.dev/man/fs_event_bridge.htm">EVENT</a></li>
-          <li><a href="https://fs.n2o.dev/man/fs_server.htm">SERVER</a></li>
-          <li><a href="https://fs.n2o.dev/man/fsevents.htm">FSEVENTS</a></li>
-          <li><a href="https://fs.n2o.dev/man/inotifywait.htm">INOTIFY</a></li>
-          <li><a href="https://fs.n2o.dev/man/inotifywait_win32.htm">WIN32</a></li>
-          <li><a href="https://fs.n2o.dev/man/kqueue.htm">KQUEUE</a></li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <h3><a href="https://exe.n2o.dev">EXE</a></h3>
-      <div>
-        <ul>
-          <li><a href="https://exe.n2o.dev/man/sh.htm">SH</a></li>
-          <li><a href="https://exe.n2o.dev/man/sh_path.htm">PATH</a></li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <h3><a href="https://active.n2o.dev">ACTIVE</a></h3>
-      <div>
-        <ul>
-          <li><a href="https://active.n2o.dev/man/active.htm">ACTIVE</a></li>
-          <li><a href="https://active.n2o.dev/man/active_app.htm">APP</a></li>
-          <li><a href="https://active.n2o.dev/man/active_events.htm">EVENTS</a></li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <h3><a href="https://mach.n2o.dev">MACH</a></h3>
-      <div>
-        <ul><li>MACH</li></ul>
-       </div>
-    </section>
-  </article>
-  <article>
-    <section>
-      <h3><a href="https://base.n2o.dev">BASE</a></h3>
-      <div>
-        <ul>
-          <li>LIST</li>
-          <li>RE</li>
-          <li>TIMER</li>
-          <li>UNICODE</li>
-          <li>STRING</li>
-          <li>RANDOM</li>
-          <li>DETS</li>
-          <li>ETS</li>
-          <li>IO</li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <h3><a href="https://rt.n2o.dev">RT</a></h3>
-      <div>
-        <ul>
-          <li>APP</li>
-          <li>SUP</li>
-          <li>AUTH</li>
-          <li>CODE</li>
-          <li>PI</li>
-          <li>TCP</li>
-          <li>UDP</li>
-          <li>HEART</li>
-          <li>INET</li>
-          <li>KERNEL</li>
-          <li>RPC</li>
-          <li>USER</li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <h3><a href="https://mad.n2o.dev">MAD</a></h3>
-      <div>
-        <ul>
-          <li><a href="https://mad.n2o.dev/man/mad.htm">MAD</a></li>
-          <li><a href="https://mad.n2o.dev/man/mad_local.htm">LOCAL</a></li>
-          <li><a href="https://mad.n2o.dev/man/mad_git.htm">GIT</a></li>
-          <li><a href="https://mad.n2o.dev/man/mad_run.htm">RUN</a></li>
-          <li><a href="https://mad.n2o.dev/man/mad_compile.htm">COMPILE</a></li>
-          <li><a href="https://mad.n2o.dev/man/mad_app.htm">APP</a></li>
-          <li><a href="https://mad.n2o.dev/man/mad_leex.htm">LEEX</a></li>
-          <li><a href="https://mad.n2o.dev/man/mad_yecc.htm">YECC</a></li>
-          <li><a href="https://mad.n2o.dev/man/mad_erl.htm">ERL</a></li>
-          <li><a href="https://mad.n2o.dev/man/mad_dtl.htm">DTL</a></li>
-          <li><a href="https://mad.n2o.dev/man/mad_peg.htm">PEG</a></li>
-          <li><a href="https://mad.n2o.dev/man/mad_port.htm">PORT</a></li>
-          <li><a href="https://mad.n2o.dev/man/mad_script.htm">SCRIPT</a></li>
-          <li><a href="https://mad.n2o.dev/man/mad_systools.htm">SYSTOOLS</a></li>
-        </ul>
-      </div> 
-    </section>
-  </article>
-  <article>
-    <section>
-      <h3>RELEASES</h3>
-      <div>
-        <ul>
-          <li><a href="https://tonpa.guru/stream/2020/2020-01-08%20%D0%A0%D0%BE%D0%BB%D0%B0%D1%83%D1%82%20N2O%202020.htm">N2O 7.1</a> <font class="desk" color="#00b8cf">11 JAN 2020</font></li>
-          <li><a href="https://tonpa.guru/stream/2019/2019-06-21%20Новые%20версии%20BUD%20и%20BANK.htm">FIN 6.6</a> <font class="desk" color="#00b8cf">21 JUN 2019</font></li>
-          <li><a href="https://tonpa.guru/stream/2019/2019-06-19%20BPE%20MIX.htm">BPE 4.6 MIX</a> <font class="desk" color="#00b8cf">19 JUN 2019</font></li>
-          <li><a href="https://tonpa.guru/stream/2019/2019-06-10%20N2O%20MIX.htm">N2O 6.6 MIX</a> <font class="desk" color="#00b8cf">10 JUN 2019</font></li>
-          <li><a href="https://tonpa.guru/stream/2019/2019-04-13%20Новая%20версия%20KVS.htm">KVS 6.4</a> <font class="desk" color="#00b8cf">13 APR 2019</font></li>
-          <li><a href="https://tonpa.guru/stream/2019/2019-04-11%20Новая%20версия%20BPE.htm">BPE 4.4</a> <font class="desk" color="#00b8cf">11 APR 2019</font></li>
-          <li><a href="http://tonpa.guru/stream/2019/2019-03-07%20Новая%20версия%20FORMS.htm">FORMS 4.3</a> <font class="desk" color="#00b8cf">19 MAR 2019</font></li>
-          <li><a href="https://tonpa.guru/stream/2019/2019-02-13%20Новая%20версия%20XIO.htm">XIO MQTT 5.0</a> <font class="desk" color="#00b8cf">13 FEB 2019</font></li>
-          <li><a href="https://tonpa.guru/stream/2018/2018-11-30%20Ошечки.htm">O-SERIES</a> <font class="desk" color="#00b8cf">30 NOV 2018</font></li>
-          <li><a href="https://tonpa.guru/stream/2018/2018-11-13%20Новая%20версия%20KVS.htm">KVS 5.11</a> <font class="desk" color="#00b8cf">13 NOV 2018</font></li>
-          <li><a href="https://tonpa.guru/stream/2018/2018-11-13%20Новая%20версия%20MAD.htm">MAD 4.10</a> <font class="desk" color="#00b8cf">13 NOV 2018</font></li>
-          <li><a href="https://tonpa.guru/stream/2018/2018-11-13%20Новая%20версия%20REVIEW.htm">REVIEW 1.10</a> <font class="desk" color="#00b8cf">13 NOV 2018</font></li>
-          <li><a href="https://tonpa.guru/stream/2018/2018-10-22%20Новый%20ролаут%20N2O.htm">N2O 5.10</a> <font class="desk" color="#00b8cf">22 OCT 2018</font></li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <h3>SPEC</h3>
-      <div>
-        <ul>
-          <li><a href="https://n2o.tech">EN</a></li>
-          <li><a href="https://n2o.tech/jp/">JP</a></li>
-          <li><a href="https://n2o.tech/cn/">CN</a></li>
-        </ul>
-      </div>
-    </section>
-  </article>
-  <article>
-    <section>
-      <h3>ARTICLES</h3>
-      <div>
-        <ul>
-          <li><a href="https://n2o.dev/articles/roff.htm">ROFF: SETUP</a></li>
-          <li><a href="https://n2o.dev/articles/css.htm">CSS: BOOK</a></li>
-          <li><a href="https://n2o.dev/articles/mq.htm">EMQ: N2O/MQTT</a></li>
-          <li><a href="https://n2o.dev/articles/pi.htm">PI: PROCESSES</a></li>
-          <li><a href="https://n2o.dev/articles/ftp.htm">FTP: FILE UPLOAD</a></li>
-          <li><a href="https://n2o.dev/articles/web.htm">WEB: SPA</a></li>
-          <li><a href="https://n2o.dev/articles/n2o.htm">N2O: IoT</a></li>
-          <li><a href="https://n2o.dev/articles/bpe.htm">BPE: BIZ</a></li>
-          <li><a href="https://n2o.dev/articles/history.htm">HISTORY: N2O</a></li>
-          <li><a href="https://n2o.dev/articles/cr.htm">CR: BFT DB</a></li>
-          <li><a href="https://n2o.dev/articles/pb.htm">PRIVATBANK</a></li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <h3>BOOKS</h3>
-      <div>
-        <ul>
-          <li><a href="https://n2o.dev/books/n2o.pdf">N2O BOOK</a></li>
-          <li><a href="https://n2o.dev/books/bpe.pdf">BPE BOOK</a></li>
-          <li><a href="https://n2o.dev/books/mad.pdf">MAD BOOK</a></li>
-          <li><a href="https://plm.n2o.space/man/ua/1.htm">ERP BOOK</a></li>
-        </ul>
-      </div>
-    </section>
-  </article>
-  <article>
-    <section>
-        <a name="modules"></a><h3>PEOPLE</h3>
-        <div>
-        <ul>
-        <li><b><a href="https://github.com/5HT">5HT</a></b> — Maxim Sokhatsky <div class="desk">— N2O, KVS, MAD, BPE, MQTT, CHAT</div></li>
-        <li><b><a href="https://github.com/doxtop">doxtop</a></b> — Andrii Zadorozhnii <div class="desk">— N2O, KVS, ERP, CRM, SCM</div></li>
-        <li><b><a href="https://github.com/proger">proger</a></b> — Vladimir Kirillov <div class="desk">— ACTIVE, FS, KVX, N2O, BPE, CHAT</div></li>
-        <li><b><a href="https://github.com/b0oh">b0oh</a></b> — Dmitry Bushmelev <div class="desk">— REST</div></li>
-        <li><b><a href="https://github.com/romanshestakov">romanshestakov</a></b> — Roman Shestakov <div class="desk">— NITRO</div></li>
-        <li><b><a href="https://github.com/vsov">vsov</a></b> — Viktor Sovietov <div class="desk">— BOOK</div></li>
-        <li><b><a href="https://github.com/wizzard0">wizzard0</a></b> — Oleksandr Nikitin <div class="desk">— SEC</div></li>
-        <li><b><a href="https://github.com/sokal32">sokal32</a></b> — Vitaly Shutko <div class="desk">— KVS, MAD</div></li>
-        <li><b><a href="https://github.com/cystbear">cystbear</a></b> — Oleg Zinchenko <div class="desk">— N2O, KVS</div></li>
-        <li><b><a href="https://github.com/bushyn">bushyn</a></b> — Arseniy Bushyn <div class="desk">— CSS</div></li>
-        <li><b><a href="https://github.com/cryoflamer">cryoflamer</a></b> — Yuri Maslovsky <div class="desk">— MQTT</div></li>
-        <li><b><a href="https://github.com/qomputer">qomputer</a></b> — Igor Kharin <div class="desk">— K8S</div></li>
-        <li><b><a href="https://github.com/xafizoff">xafizoff</a></b> — Marat Khafizov <div class="desk">— HASKELL, SML </div></li>
-        <li><b><a href="https://github.com/pal-alex">pal-alex</a></b> — Oleksandr Palchikovsky <div class="desk">— BPE, TMS, WMS, MAD</div></li>
-        <li><b><a href="https://github.com/221V">221V</a></b> — Taras Torous <div class="desk">— CSS, GROFF, XHTML, MAD, N2O</div></li>
-        <li><b><a href="https://github.com/umka1332">umka1332</a></b> — Oleksandr Naumov <div class="desk">— BPE, BPMN</div></li>
-        <li><b><a href="https://github.com/SunRiseGG">SunRiseGG</a></b> — Ivan Kulyk <div class="desk">— BPE, KVS, N2O, NITRO, FORM, CRM</div></li>
-                            </ul>
-        </div>
-        <br /><br />
-        <br /><br />
-        <div align="center">
-        <a style="display: inline-block;" href="https://github.com/synrc"><img style="padding:20px;width:150px;" src="https://n2o.dev/img/github.svg"/></a>
-        </div>
     </section>
   </article>
 </aside>
 <main>
+<article>
+  <section>
+
+    <h3>ЩО Є N2O НАСПРАВДІ?</h3>
+
+     <p>N2O TEX &mdash; це формальна філософія та інженерна вправа водночас.
+        Вона обмежує автора бути ефективним та точним не втрачаючи при цьому повноти та функціональності.
+        Це накшталт внутрішньої дисципліні при проектуванні програмного забезпечення.
+        Ця філософія більше 8 років застосовується на практиці для побудови систем SYNRC,
+        та визначає стандартний мінімальний набір для демонстрації однієї
+        з сучасних моделей реактивного веб-програмування, яка включає: веб-сокет веб-фреймвок
+        з бінарною серілізацією, пушами та контролем DOM елементів зі сторони сервера.
+        N2O вчить будувати прості та надійні системи на будь-якій мові програмування.</p>
+     <p>N2O додатки:</P>
+     <figure><img src="https://camo.githubusercontent.com/8f1b465dfc7986da9444456e3e9e9eee94731e5692a3d06cb1670a107af1f21c/68747470733a2f2f6e326f2e6465762f4445562e706e673f763d31"></figure>
+
+     <p><a href="https://github.com/groupoid/anders/tree/master/experiments">Формальна специфікація</a> для основних бібліотек N2O, KVS та BPE на мові Anders:</p>
+     <figure><code>
+  module N2O-KVS-BPE where
+  import BASE
+
+  axiom pickle : Binary -> Binary
+  axiom depickle : Binary -> Binary
+  axiom encode : Π (k: U), k -> Binary
+  axiom decode : Π (k: U), Binary -> IO k
+  axiom reg: Π (k: U), k -> IO k
+  axiom unreg : Π (k: U), k -> IO k
+  axiom send : Π (k v z: U), k -> v -> IO z
+  axiom getSession : Π (k v: U), k -> IO v
+  axiom putSession : Π (k v: U), k -> v -> IO v
+  axiom getCache : Π (k v: U), Atom -> k -> IO v
+  axiom putCache : Π (k v: U), Atom -> k -> v -> IO v
+  axiom start : PI -> IO Sup
+
+  axiom get : Π (f k v: U), f -> k -> IO (Maybe v)
+  axiom put : Π (r: U), r -> IO StoreResult
+  axiom delete : Π (f k: U), f -> k -> StoreResult
+  axiom index : Π (f p v r: U), f -> Atom -> v -> List r
+  axiom next : Reader -> IO Reader
+  axiom prev : Reader -> IO Reader
+  axiom take : Reader -> IO Reader
+  axiom drop : Reader -> IO Reader
+  axiom save : Reader -> IO Reader
+  axiom append : Π (f r: U), f -> r -> IO StoreResult
+  axiom remove : Π (f r: U), f -> r -> IO StoreResult
+
+  axiom start : Proc -> IO Sup
+  axiom stop : String -> IO Sup
+  axiom next : ProcId -> IO ProcRes
+  axiom amend : Π (k: U), ProcId -> k -> IO ProcRes
+  axiom discard : Π (k: U), ProcId -> k -> IO ProcRes
+  axiom modify : Π (k: U), ProcId -> k -> Atom -> IO ProcRes
+  axiom event : ProcId -> String -> IO ProcRes
+  axiom head : ProcId -> IO Hist
+  axiom hist : ProcId -> IO (List Hist)</code></figure></section>
+
+
+     <p>Авторські імплементації N2O TEX для функціональних мов програмування:</P>
+     <center>
+      <table align=center style="margin:0" cellpadding=0 cellspacing=0>
+        <tr>
+            <td><a href="https://n2o.dev/ua/"><img src="https://avatars.githubusercontent.com/u/661709?s=200&v=4"></a></td>
+            <td><a href="https://o1.github.io/sml.uno/"><img src="https://avatars.githubusercontent.com/u/45427884?s=200&v=4"></a></td>
+            <td><a href="https://github.com/o53/"><img src="https://avatars.githubusercontent.com/u/45442911?s=200&v=4"></a></td>
+            <td><a href="https://github.com/o83/"><img src="https://avatars.githubusercontent.com/u/46197464?s=200&v=4"></a></td>
+        </tr>
+        <tr>
+            <td><a href="https://o7.github.io/o7.network/"><img src="https://avatars.githubusercontent.com/u/45430889?s=200&v=4"></a></td>
+            <td><a href="https://o3.click"><img src="https://avatars.githubusercontent.com/u/45380730?s=200&v=4"></a></td>
+            <td><a href="https://github.com/o59/"><img src="https://avatars.githubusercontent.com/u/45442930?s=200&v=4"></a></td>
+            <td><a href="https://github.com/o29/"><img src="https://avatars.githubusercontent.com/u/45442177?s=200&v=4"></a></td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/o73/"><img src="https://avatars.githubusercontent.com/u/45442306?s=200&v=4"></a></td>
+            <td><a href="https://github.com/o4/"><img src="https://avatars.githubusercontent.com/u/45470008?s=200&v=4"></a></td>
+            <td><a href="https://github.com/o61/"><img src="https://avatars.githubusercontent.com/u/45904424?s=200&v=4"></a></td>
+            <td><a href="https://lean4.dev/"><img src="https://avatars.githubusercontent.com/u/46346236?s=200&v=4"></a></td>
+        </tr>
+       </table>
+     </center>
+
+     <p>Мови програмування розділені на чотири рівня як для клієнтської (мобільної та веб розробки) так і для
+        серверної розробки (бекенд системи). Нульовий рівень &mdash; тотальні формальні алгебраїчні
+        мови програмування, що забезбечують повноту, функціональність та доведення властивостей прогрм згідно сучасних
+        уявлень про математичне моделювання та системи залежних типів побудованих на розшаруваннях.
+        Перший рівень &mdash; формальні функціональні мови програмування, як правило System F, System F&omega;
+        які успішно використовуються в промисловості та забезпечують достатньо формальний запис
+        який піддається масштабуванню у великих командах завдяки потужному ядру компіляторів.
+        Другий рівень &mdash; неформальні (без формальної операційної чи денотаційної семантики) чи
+        формальних верифікаторів, які проте успішно використовуються в промисловості, можуть бути як
+        з розвиненими системами типів з узагальненими шаблонами та типами сумами, так і
+        однотипними мовами програмування з динамічною типізацією. Третій рівень &mdash; мови які
+        погано піддаються масштабуванню у промисловому виробництві (на основі спостережень за власним досвідом).
+     </p>
+
+        <ul>
+           <li>Client Tier 3：（JavaScript、Lua）</li>
+           <li>Client Tier 2：（Swift、Kotlin、TypeScript）</li>
+           <li>Client Tier 1：（UrWeb、OCaml、PureScript）</li>
+           <li>Client Tier 0：（Formality）</li>
+        </ul>
+        <ul>
+           <li>Server Tier 3：（PHP、Python、Perl、Ruby）</li>
+           <li>Server Tier 2：（Erlang、Elixir）</li>
+           <li>Server Tier 1：（Standard ML、Haskell、F#、Rust）</li>
+           <li>Server Tier 0：（Coq、Agda、Lean）</li>
+        </ul>
+
+      <p>Філософія N2O визначає структуру операційних середовищ (runtimes) як операційну систему
+         лямбда-інтерпретаторів які працюють на паралельному обчислювальному
+         середовищі (ядрах процесорів). Кожне з ядер процесорів виконує в нескінченному циклі
+         команди лямбда-інтерпретаторів, переключаючи через певний проміжок часу на
+         потік команд іншого інтерпретатора. Таке визначення дає змогу вбудувати
+         цю структуру у віртуальну машину Erlang.</p>
+
+      <p></p>
+
+        <ul>
+           <li>Головний процес додатку</li>
+           <li>Супервізор додатку</li>
+           <li>Проміжні супервізори</li>
+           <li>Кінцеві пул процесорів повідомлень</li>
+        </ul>
+
+          </section>
+  <section>
+    <p>Client Tier 3 —（JavaScript、Lua）：</p>
+  </section>
+  <section>
+    <a name="o99"></a>
+    <h3>N2O.JS CLIENT</h3>
+    <p>ECMAScript клієнтська інфраструктура для усіх рівнів N2O специфікації.</p>
+    <ul>
+      <li><a href="https://n2o.dev/deps/n2o/man/ua/utf8.js.htm">UTF-8.JS</a> — UTF-8 серіалізація</li>
+      <li><a href="https://n2o.dev/deps/n2o/man/ua/ieee754.js.htm">IEEE-754.JS</a> — Бінарний формат представлення дійсних чисел</li>
+      <li><a href="https://n2o.dev/deps/n2o/man/ua/zlib.js.htm">ZLIB.JS</a> — ZLIB декомпресія термів</li>
+      <li><a href="https://n2o.dev/deps/n2o/man/ua/bert.js.htm">ETF.JS</a> — Erlang Term Format серіалізатор</li>
+      <li><a href="https://n2o.dev/deps/n2o/man/ua/n2o.js.htm">N2O.JS</a> — N2O/WebSocket JavaScript протокольний цикл</li>
+      <li><a href="https://n2o.dev/deps/n2o/man/ua/mq.js.htm">MQ.JS</a> — N2O/MQTT JavaScript протокольний цикл</li>
+      <li><a href="https://n2o.dev/deps/n2o/man/ua/nitro.js.htm">NITRO.JS</a> — NITRO/JavaScript біндінги для DOM джерел</li>
+      <li><a href="https://github.com/synrc/nitro/blob/master/priv/js/validation.js">VALIDATION.JS</a> — NITRO/JavaScript валідація DOM джерел</li>
+    </ul>
+  </section>
+  <section>
+    <p>Server Tier 2 —（Erlang、Elixir）：</p>
+  </section>
+  <section>
+    <a name="synrc"></a>
+    <h3><a href="https://github.com/synrc">O7 ERLANG ELIXIR HAMLER</a></h3>
+    <p>Стабільні та випробувані часом та 10 роками промслової експлуатації.</p>
+    <ul>
+      <li><a href="https://n2o.dev/deps/n2o/man/ua/index.html">synrc/n2o</a> — N2O 7.12.0 Distributed WebSocket Server</li>
+      <li><a href="https://n2o.dev/deps/kvs/man/ua/index.html">synrc/kvs</a> — KVS 7.11.5 Key Value Store</li>
+      <li><a href="https://n2o.dev/deps/mad/man/ua/index.html">synrc/mad</a> — MAD 7.1.1 Erlang Package Manager</li>
+      <li><a href="https://n2o.dev/deps/bpe/man/ua/index.html">synrc/bpe</a> — BPE 5.12.0 Business Process Engine</li>
+      <li><a href="https://n2o.dev/deps/nitro/man/ua/index.html">synrc/nitro</a> — NITRO 5.12.4 Nitrogen Web Framework</li>
+      <li><a href="https://n2o.dev/deps/rest/man/ua/index.html">synrc/rest</a> — REST 5.10</li>
+      <li><a href="https://n2o.dev/deps/active/man/ua/index.html">synrc/active</a> — ACTIVE 4.11</li>
+      <li><a href="https://n2o.dev/deps/fs/man/ua/index.html">synrc/fs</a> — FS 4.10</li>
+      <li><a href="https://n2o.dev/deps/exe/man/ua/index.html">synrc/exe</a> — EXE 2.11</li>
+      <li><a href="https://n2o.dev/deps/rpc/man/ua/index.html">synrc/rpc</a> — RPC 1.11.1 Swift protobuf ASN.1 JavaScript</li>
+      <li><a href="https://sample.n2o.dev">synrc/review</a> — REVIEW 1.11 MQTT Chat with File Upload</li>
+      <li><a href="https://sample.n2o.dev">synrc/sample</a> — SAMPLE 1.11 WebSocket Chat with File Upload</li></ul>
+    <br/>
+  </section>
+  <section>
+    <p>Server Tier 1 — （SML、Haskell、F#、Rust）：</p>
+  </section>
+  <section>
+    <a name="o1"></a>
+    <h3><a href="https://github.com/o1">O1 STANDARD ML</a></h3>
+    <p>This is first System-F implementation for SML/NJ and MLton.</p>
+    <ul><li><a href="https://github.com/o1/n2o">o1/n2o</a> — N2O 0.11 WebSocket Server</li>
+        <li><a href="https://github.com/o1/nitro">o1/nitro</a> — NITRO 0.11 Nitrogen Web Framework</li></ul>
+  </section>
+  <section>
+    <a name="o3"></a>
+    <h3><a href="https://github.com/o3">O3 HASKELL</a></h3>
+    <p>This is second System-F implementation.</p>
+    <ul>
+      <li><a href="https://n2o.o3.click/">o3/n2o</a> — N2O 0.11 WebSocket Server</li>
+      <li><a href="https://nitro.o3.click/">o3/nitro</a> — NITRO 0.11 Nitrogen Web Framework</li>
+      <li><a href="https://sample.o3.click/">o3/sample</a> — SAMPLE 0.11 Simple Sample</li>
+    </ul>
+  </section>
+  <section>
+    <a name="o61"></a>
+    <h3><a href="https://github.com/o61">O61 F#</a></h3>
+    <p>This is third System-F implementation.</p>
+    <ul><li><a href="https://github.com/erpuno/ws">o61/ws</a> — WS 1.0 WebSocket Server</li>
+        <li><a href="https://github.com/erpuno/etf">o61/etf</a> — ETF 1.0 Erlang Term Format Serializer</li>
+        <li><a href="https://github.com/erpuno/nitro">o61/nitro</a> — NITRO 1.0 Nitrogen Web Framework</li></ul>
+  </section>
+  <section>
+    <a name="o4"></a>
+    <h3><a href="https://github.com/o83">O83 RUST</a></h3>
+    <p>This is proof-of-concept of formal CPS interpreter with SMP runtime.</p>
+    <ul><li><a href="https://o83.github.io/platform.rs/">o83/kernel</a> — KERNEL SMP OS and K interpreter</li></ul>
+  </section>
+  <section>
+    <p>Server Tier 0 — （Coq、Agda、Lean）：</p>
+  </section>
+  <section>
+    <a name="o89"></a>
+    <h3><a href="https://github.com/o89">O89 LEAN4</a></h3>
+    <p>This is LEAN 4 N2O full-stack.</p>
+    <ul><li><a href="https://github.com/o89/n2o">o89/n2o</a> — N2O WebSocket Server</li>
+       <li><a href="https://github.com/o89/nitro">o89/nitro</a> — NITRO Nitrogen Web Framework</li>
+       <li><a href="https://bum.pm">o89/bum</a> — BUM Lean4 Package Manager</li></ul>
+    <br/><br/>
+  </section>
+  <section>
+    <a name="o29"></a>
+    <h3><a href="https://github.com/o29">O29 COQ</a></h3>
+    <p>Coq.io based system-level Coq programming.</p>
+    <ul><li><a href="https://github.com/o29/n2o">o29/n2o</a> — N2O Coinductive Shell</li></ul>
+  </section>
+  <section>
+    <h3>HEART ADVICE</h3>
+    <p>Each language, N2O TECH is implemented in, should
+      embed its philosophy most naturally and compact. If some layer between
+      the base library of a language is needed, it
+      could be provided, but it should be reduced
+      to zero if possible. In some cases, some parts
+      of a base library could be replaced with better replacement.
+      N2O should provide client companion library usually
+      implemented in a different set
+      of client languages: JavaScript, Swift, Kotlin.
+      If you did everything right, N2O should not
+      be more than 500 LOC in any language.<br /><br />
+    </p>
+    <br/>
+    <br/>
+  </section>
+</article>
 </main>
-<footer>
-  Made with <span class="heart">❤</span> to N2O
-</footer>
-<script>function drop(){document.getElementById("dropdown").classList.toggle("show");}</script>
+<footer>Namdak Tonpa <span class="heart">❤</span> N2O</footer>
 </body>
 </html>
